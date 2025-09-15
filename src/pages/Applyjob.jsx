@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Applyjob = () => {
-  return <div>Apply job</div>;
+  const{id}=useParams()
+  const[JobData,setJobData]=useState(null);
+  const fetchJob=async()=>{
+    
+  }
+
+  return <div>
+
+  </div>;
 };
 
 export default Applyjob;
